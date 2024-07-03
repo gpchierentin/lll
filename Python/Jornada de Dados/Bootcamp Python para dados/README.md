@@ -167,3 +167,11 @@ Tratar a conversão de cada item da lista.
 O programa deve imprimir uma mensagem saudando o usuário e informando o valor do novo salário.
 
 ✅ **Resolução:** [kpi.py](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados/kpi.py)
+
+
+
+### [Aula 02](#aula-02)
+
+1- Refatorar o programa da [aula anterior](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados#aula-01-2) evitando bugs conhecidos.
+
+✅ **Resolução:** [kpi_try_except.py](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados/kpi_try_except.py)
