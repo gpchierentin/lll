@@ -61,7 +61,6 @@ Condicional:
         # faça isso se <condicao> for falsa
 ```
 
-
 ```python
     $ if <condicao>:
         # faça isso se <condicao> for verdadeira
@@ -74,8 +73,46 @@ Condicional:
 ```
 
 
-🌐 Referências:
-- [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
+
+## Aula 03
+Run-Debug (VSCode), Condicional (if, elif e else), Laço de Repetição (for e while), Listas (list) e Dicionários (dict).
+
+Laço de Repetição:<br />
+`for` é utilizado para iterar sobre os itens de qualquer iterável (listas, strings, objetos de dicionário e etc.) e executar um bloco de código para cada item.
+```python
+    $ for <nome_variavel> in <objeto_iteravel>:
+        # repita isso
+```
+
+`while` é utilizado para executar um bloco de código repetidamente enquanto uma condição especificada é avaliada como verdadeira (True).
+```python
+    $ while <condicao>:
+        # repita isso
+```
+
+Listas (`list()`):
+```python
+    $ list(range(5, 10))
+    > [5, 6, 7, 8, 9]
+
+    $ list(range(0, 10, 3))
+    > [0, 3, 6, 9]
+
+    $ list(range(-10, -100, -30))
+    > [-10, -40, -70]
+```
+
+Dicionários (`dict()`):
+```python
+    $ vendas = {"categoria": "eletrônicos", "valor": 1200}
+
+    $ lista_usuarios = [
+        {"nome": "Alice", "email": "alice@example.com"}
+    ,   {"nome": "Bob", "email": ""}
+    ,   {"nome": "Carol", "email": "carol@example.com"}
+    ]
+```
+
 
 
 <br>
@@ -175,3 +212,11 @@ O programa deve imprimir uma mensagem saudando o usuário e informando o valor d
 1- Refatorar o programa da [aula anterior](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados#aula-01-2) evitando bugs conhecidos.
 
 ✅ **Resolução:** [kpi_try_except.py](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados/kpi_try_except.py)
+
+
+<br>
+<hr />
+<br>
+
+🌐 Referências:
+- [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
