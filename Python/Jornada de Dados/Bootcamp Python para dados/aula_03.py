@@ -145,3 +145,79 @@ for v in vendas:
         vendas_por_categoria[v["categoria"]] = v["valor"]
 
 print(vendas_por_categoria)
+
+#%%
+# ### Exercícios com WHILE
+
+# ### Exercício 11. Leitura de Dados até Flag
+# Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
+while True:
+    entrada = input("Digite algo ou 'sair' para encerrar: ")
+    if str(entrada).lower() == 'sair':
+        print('Encerrando...')
+        break  
+    else:
+        print(entrada)
+
+#%%
+# ### Exercício 12. Validação de Entrada
+# Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
+while True:
+    entrada = input("Digite um número entre 1 e 10: ")
+    try:
+        if float(entrada) >= 1 and float(entrada) <= 10:
+            print(f"Número digitado: {entrada}. Show de bola!")
+            break
+        else:
+            print("Tente novamente!")
+            continue
+    except ValueError:
+        print("Apenas números são aceitos. Tente novamente!")
+        continue
+
+#%%
+# ### Exercício 13. Consumo de API Simulado
+# Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
+pag_atual = 1
+total_paginas = 10
+
+while pag_atual <= total_paginas:
+    print(f"Consumindo dados da página {pag_atual} de {total_paginas}.")
+    pag_atual += 1
+
+#%%
+# ### Exercício 14. Tentativas de Conexão
+# Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+tentativa = 1
+max_tentativas = 3
+
+while tentativa <= max_tentativas:
+    print(f"Tentativa {tentativa} de {max_tentativas}.")
+    tentativa += 1
+
+#%%
+# ### Exercício 15. Processamento de Dados com Condição de Parada
+# Processar itens de uma lista até encontrar um valor específico que indica a parada.
+itens = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+while True:
+    try:
+        n = int(input('Digite um valor de 1 até 10: '))
+
+        if n >= 1 and n <=10:
+            i = 0
+            while i < len(itens):
+                print('\nNúmero da lista: ', itens[i])
+                    
+                if n == itens[i]:
+                    print('Condição de parada atendida!')
+                    break
+                else:
+                    print('Testando outro valor...')
+                i+=1
+            break
+        else:
+            print("Intervalo aceito: 1 até 10. Tente novamente!\n\n")
+
+
+    except ValueError:
+        print("Apenas números inteiros (1 até 10) são aceitos. Tente novamente!\n\n")
