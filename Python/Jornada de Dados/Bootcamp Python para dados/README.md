@@ -250,6 +250,14 @@ O programa deve imprimir uma mensagem saudando o usuário e informando o valor d
 ✅ **Resolução:** [kpi_try_except.py](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados/kpi_try_except.py)
 
 
+
+### [Aula 03](#aula-03)
+
+1- Refatorar o programa da [aula anterior](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados#aula-02-2) repetindo o fluxo até que o usuário insira informações válidas.
+
+✅ **Resolução:** [kpi_while.py](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados/kpi_while.py)
+
+
 <br>
 <hr />
 <br>
