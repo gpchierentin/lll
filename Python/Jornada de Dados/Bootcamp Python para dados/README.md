@@ -191,6 +191,42 @@ Tratar a conversão de cada item da lista.
 ✅ **Resolução:** [aula_02.py](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados/aula_02.py)
 
 
+
+### [Aula 03](#aula-03)
+
+1- Verificar qualidade de dados de vendas e garantir valores positivos para quantidade e preço.
+
+2- Classificar cada leitura de temperatura de sensores IoT considerando a escala: menor que 18°C está baixa, menor ou igual 26°C está normal e acima disso a temperatura está alta.
+
+3- Analisar logs de uma aplicação e filtrar mensagens com severidade igual a 'ERROR'.
+
+4- Solicitar a idade e o e-mail do usuário e verificar se a idade está dentro do intervalo do sistema de recomendação e seja um e-mail válido.
+
+5- Analisar uma transação e verificar se ela é suspeita seguindo as regras de negócio estabelecidas.
+
+6- Contar quantas vezes cada palavra aparece em um determinado texto.
+
+7- Normalizar uma lista de números para que fiquem na escala de 0 a 1.
+
+8- Analisar uma lista de usuários e identificar o registro que tenha campos ausentes.
+
+9- Extrair os números pares de uma lista de valores aleatórios.
+
+10- Calcular o total de vendas por categoria de um conjunto de registros de vendas.
+
+11- Solicitar a entrada de dados até que uma palavra-chave específica ("sair") seja fornecida.
+
+12- Solicitar um número dentro de um intervalo específico até que a entrada seja válida.
+
+13- Simular o consumo de uma API paginada, onde cada página de dados é processada em loop até que não haja mais páginas.
+
+14- Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+
+15- Processar itens de uma lista até encontrar um valor específico inserido pelo usuário que indica a condição de interrupção.
+
+✅ **Resolução:** [aula_03.py](https://github.com/gpchierentin/lll/tree/main/Python/Jornada%20de%20Dados/Bootcamp%20Python%20para%20dados/aula_03.py)
+
+
 <br>
 <hr />
 <br>
