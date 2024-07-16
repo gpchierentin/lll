@@ -176,3 +176,58 @@ for caractere in texto:
 
 print(frequencia)
 
+
+#%%
+# 16. Escreva uma função que receba uma lista de números e retorne a soma de todos os números.
+def somar_numeros(numeros : list) -> float:
+    return sum(numeros)
+
+somar_numeros([12, 2.3, 30, 4, 35, 6, 17, 82, 29, 9.7])
+
+
+#%%
+# 17. Crie uma função que receba um número como argumento e retorne `True` se o número for primo e `False` caso contrário.
+def verificar_numero_primo(numero : float) -> bool:
+    if numero <= 1:
+        return False
+    if numero == 2:
+        return True
+    if numero % 2 == 0:
+        return False
+    for i in range(3, int(numero**0.5) + 1, 2):
+        if numero % i == 0:
+            return False
+    return True
+
+print( verificar_numero_primo(11) )
+print( verificar_numero_primo(4) )
+print( verificar_numero_primo(17) )
+print( verificar_numero_primo(-17) )
+
+
+
+#%%
+# 18. Desenvolva uma função que receba uma string como argumento e retorne essa string revertida.
+txt = input("Digite um texto qualquer: ")
+
+def inverter_texto(texto : str) -> str:
+    return texto[::-1]
+
+inverter_texto(txt)
+
+
+#%%
+# 19. Implemente uma função que receba dois argumentos: uma lista de números e um número. A função deve retornar todas as combinações de pares na lista que somem ao número dado.
+def exercicio_19(lista_numero : list, numero : float):
+    return [(a, b) for a in lista_numero for b in lista_numero if a + b == numero]
+
+exercicio_19([12, 2.3, 30, 4, 35, 6, 17, 82, 29, 9.7], 36)
+
+
+#%%
+# 20. Escreva uma função que receba um dicionário e retorne uma lista de chaves ordenadas
+def ordenar_chave(dicionario : dict) -> list:
+    return sorted(dicionario.keys())
+
+ordenar_chave({"c": 1, "e": 2, "a": 3})
+
